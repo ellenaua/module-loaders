@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>System.js module loader</title>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script>
+        SystemJS.import('./systemjs-common/app.js').then(function(m) {
+          console.log('Application loaded');
+        });
+    </script>
+</head>
+<body>
+    <h5>System.js usage example</h5>
+</body>
+</html>
